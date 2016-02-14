@@ -6,9 +6,16 @@
     border-color: #ccc;
 }
 
+li a:hover {
+  background color: #ccc;
+  border-color: #ccc;
+  color: gray;
+}
 
-
-
+#nav-box {
+  margin: 20px;
+  margin-right: 60px;
+}
 
 .container-full {
   background-image:url('/pingmeupsplash.jpg');
@@ -46,7 +53,15 @@
     margin: 0px auto;
 }
 
+.container-full h2 {
+  color: white;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px black;
 
+}
 
 .search-wrapper {
   text-align: center;
@@ -70,8 +85,8 @@
 
 #summary-results h2 {
     text-align: center;
-    color: #393c3d;
-    font-size: 24px;
+    color: white;
+    font-size: 32px;
 }
 
 .summary-results p {
