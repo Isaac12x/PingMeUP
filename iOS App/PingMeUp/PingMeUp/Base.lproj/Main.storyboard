@@ -25,11 +25,11 @@
                                     <rect key="frame" x="0.0" y="64" width="600" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.55642588350785338" green="0.55642588350785338" blue="0.55642588350785338" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ag8-B7-bey" customClass="SummaryCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SummaryCell" id="Ag8-B7-bey" customClass="AddInterestViewCell" customModule="PingMeUp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="113" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ag8-B7-bey" id="VG5-rN-q2b">
@@ -42,7 +42,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1w0-6e-CdA">
                                 <rect key="frame" x="0.0" y="83" width="600" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.34082542539267013" green="0.34082542539267013" blue="0.34082542539267013" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -59,6 +59,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="PingMeUp" id="SBt-6E-vQj"/>
+                    <connections>
+                        <outlet property="tableD" destination="TpP-48-2Ad" id="uRb-w3-s4O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Fv-YN-IiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,6 +151,9 @@
                                     <constraint firstAttribute="width" constant="140" id="4om-ud-V8A"/>
                                 </constraints>
                                 <state key="normal" title="Read On Page"/>
+                                <connections>
+                                    <action selector="openURL:" destination="vf6-AL-zoo" eventType="touchUpInside" id="bgE-UH-QxQ"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zSw-Pe-Nmm">
                                 <rect key="frame" x="84" y="90" width="433" height="366"/>

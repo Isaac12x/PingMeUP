@@ -92,5 +92,15 @@ class CustomSearchController: UISearchController, UISearchBarDelegate {
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         customDelegate.didChangeSearchText(searchText)
 }
+    
+    // Helper: url validation
+    func mediaURL2AttachValidation(url: String) -> Bool{
+        let pattern = "^(http?|https?:\\/\\/)([a-zA-Z0-9_\\-~]+\\.)+[a-zA-Z0-9_\\-~\\/\\.]+$"
+        if let _ = url.rangeOfString(pattern, options: .RegularExpressionSearch){
+            return true
+        }else{
+            return false
+        }
+    }
 }
     

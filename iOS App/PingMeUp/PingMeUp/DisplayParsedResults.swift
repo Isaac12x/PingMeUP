@@ -21,8 +21,16 @@ class DisplayParsedResults: UIViewController {
         
     }
     
+    @IBAction func openURL(sender: AnyObject) {
+        
+        
+    }
+    
+    
     
     @IBAction func findRelatedWebsites(sender: AnyObject) {
+        
+        
     }
     
 }

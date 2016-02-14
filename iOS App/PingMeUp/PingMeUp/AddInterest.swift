@@ -12,7 +12,7 @@ class AddInterest: UITableViewController{
     
     // MARK: - Variables
     @IBOutlet weak var tableD: UITableView!
-    var isSumarized: [Summary] = []
+    var isSumarized = [Summary]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
