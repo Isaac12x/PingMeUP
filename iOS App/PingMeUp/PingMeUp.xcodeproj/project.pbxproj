@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		ECEA25E21C6FDEF70012CFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25E11C6FDEF70012CFD4 /* AppDelegate.swift */; };
-		ECEA25E41C6FDEF70012CFD4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25E31C6FDEF70012CFD4 /* FirstViewController.swift */; };
-		ECEA25E61C6FDEF70012CFD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25E51C6FDEF70012CFD4 /* SecondViewController.swift */; };
+		ECEA25E61C6FDEF70012CFD4 /* AddInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25E51C6FDEF70012CFD4 /* AddInterest.swift */; };
 		ECEA25E91C6FDEF70012CFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEA25E71C6FDEF70012CFD4 /* Main.storyboard */; };
 		ECEA25EB1C6FDEF70012CFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEA25EA1C6FDEF70012CFD4 /* Assets.xcassets */; };
 		ECEA25EE1C6FDEF70012CFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEA25EC1C6FDEF70012CFD4 /* LaunchScreen.storyboard */; };
+		ECEA25F71C70046D0012CFD4 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25F61C70046D0012CFD4 /* Summary.swift */; };
+		ECEA25FA1C70077F0012CFD4 /* PingMeUpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25F91C70077F0012CFD4 /* PingMeUpClient.swift */; };
+		ECEA25FC1C7007890012CFD4 /* PingMeUpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25FB1C7007890012CFD4 /* PingMeUpConstants.swift */; };
+		ECEA25FE1C70207A0012CFD4 /* QuickTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25FD1C70207A0012CFD4 /* QuickTour.swift */; };
+		ECEA26001C70251D0012CFD4 /* AddInterestViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA25FF1C70251D0012CFD4 /* AddInterestViewCell.swift */; };
+		ECEA26061C702F450012CFD4 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA26051C702F450012CFD4 /* CustomSearchBar.swift */; };
+		ECEA26081C702F540012CFD4 /* CustomSearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA26071C702F540012CFD4 /* CustomSearchBarController.swift */; };
+		ECEA260C1C704CE50012CFD4 /* DisplayParsedResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA260B1C704CE50012CFD4 /* DisplayParsedResults.swift */; };
+		ECEA260E1C7054CA0012CFD4 /* CustomSearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA260D1C7054CA0012CFD4 /* CustomSearchBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECEA25DE1C6FDEF70012CFD4 /* PingMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEA25E11C6FDEF70012CFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECEA25E31C6FDEF70012CFD4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		ECEA25E51C6FDEF70012CFD4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ECEA25E51C6FDEF70012CFD4 /* AddInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInterest.swift; sourceTree = "<group>"; };
 		ECEA25E81C6FDEF70012CFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECEA25EA1C6FDEF70012CFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECEA25ED1C6FDEF70012CFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECEA25EF1C6FDEF70012CFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEA25F61C70046D0012CFD4 /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		ECEA25F91C70077F0012CFD4 /* PingMeUpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingMeUpClient.swift; sourceTree = "<group>"; };
+		ECEA25FB1C7007890012CFD4 /* PingMeUpConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingMeUpConstants.swift; sourceTree = "<group>"; };
+		ECEA25FD1C70207A0012CFD4 /* QuickTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTour.swift; sourceTree = "<group>"; };
+		ECEA25FF1C70251D0012CFD4 /* AddInterestViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInterestViewCell.swift; sourceTree = "<group>"; };
+		ECEA26051C702F450012CFD4 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		ECEA26071C702F540012CFD4 /* CustomSearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBarController.swift; sourceTree = "<group>"; };
+		ECEA260B1C704CE50012CFD4 /* DisplayParsedResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayParsedResults.swift; sourceTree = "<group>"; };
+		ECEA260D1C7054CA0012CFD4 /* CustomSearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 		ECEA25D51C6FDEF70012CFD4 = {
 			isa = PBXGroup;
 			children = (
+				ECEA26071C702F540012CFD4 /* CustomSearchBarController.swift */,
 				ECEA25E01C6FDEF70012CFD4 /* PingMeUp */,
 				ECEA25DF1C6FDEF70012CFD4 /* Products */,
 			);
@@ -57,14 +74,69 @@
 			isa = PBXGroup;
 			children = (
 				ECEA25E11C6FDEF70012CFD4 /* AppDelegate.swift */,
-				ECEA25E31C6FDEF70012CFD4 /* FirstViewController.swift */,
-				ECEA25E51C6FDEF70012CFD4 /* SecondViewController.swift */,
-				ECEA25E71C6FDEF70012CFD4 /* Main.storyboard */,
-				ECEA25EA1C6FDEF70012CFD4 /* Assets.xcassets */,
-				ECEA25EC1C6FDEF70012CFD4 /* LaunchScreen.storyboard */,
 				ECEA25EF1C6FDEF70012CFD4 /* Info.plist */,
+				ECEA25F51C70044F0012CFD4 /* Model */,
+				ECEA26011C7025B50012CFD4 /* View */,
+				ECEA26031C7025CA0012CFD4 /* Controller */,
+				ECEA26041C7025D70012CFD4 /* Assets */,
 			);
 			path = PingMeUp;
+			sourceTree = "<group>";
+		};
+		ECEA25F51C70044F0012CFD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA25F61C70046D0012CFD4 /* Summary.swift */,
+				ECEA25F81C7004DA0012CFD4 /* SummaryClient */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ECEA25F81C7004DA0012CFD4 /* SummaryClient */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA25F91C70077F0012CFD4 /* PingMeUpClient.swift */,
+				ECEA25FB1C7007890012CFD4 /* PingMeUpConstants.swift */,
+			);
+			name = SummaryClient;
+			sourceTree = "<group>";
+		};
+		ECEA26011C7025B50012CFD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA26021C7025BF0012CFD4 /* CellView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ECEA26021C7025BF0012CFD4 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA25FF1C70251D0012CFD4 /* AddInterestViewCell.swift */,
+				ECEA26051C702F450012CFD4 /* CustomSearchBar.swift */,
+			);
+			name = CellView;
+			sourceTree = "<group>";
+		};
+		ECEA26031C7025CA0012CFD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA25FD1C70207A0012CFD4 /* QuickTour.swift */,
+				ECEA25E51C6FDEF70012CFD4 /* AddInterest.swift */,
+				ECEA260D1C7054CA0012CFD4 /* CustomSearchBarController.swift */,
+				ECEA260B1C704CE50012CFD4 /* DisplayParsedResults.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ECEA26041C7025D70012CFD4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA25EC1C6FDEF70012CFD4 /* LaunchScreen.storyboard */,
+				ECEA25E71C6FDEF70012CFD4 /* Main.storyboard */,
+				ECEA25EA1C6FDEF70012CFD4 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECEA25E61C6FDEF70012CFD4 /* SecondViewController.swift in Sources */,
+				ECEA25E61C6FDEF70012CFD4 /* AddInterest.swift in Sources */,
+				ECEA25FE1C70207A0012CFD4 /* QuickTour.swift in Sources */,
+				ECEA25F71C70046D0012CFD4 /* Summary.swift in Sources */,
 				ECEA25E21C6FDEF70012CFD4 /* AppDelegate.swift in Sources */,
-				ECEA25E41C6FDEF70012CFD4 /* FirstViewController.swift in Sources */,
+				ECEA260C1C704CE50012CFD4 /* DisplayParsedResults.swift in Sources */,
+				ECEA26001C70251D0012CFD4 /* AddInterestViewCell.swift in Sources */,
+				ECEA25FA1C70077F0012CFD4 /* PingMeUpClient.swift in Sources */,
+				ECEA26081C702F540012CFD4 /* CustomSearchBarController.swift in Sources */,
+				ECEA26061C702F450012CFD4 /* CustomSearchBar.swift in Sources */,
+				ECEA260E1C7054CA0012CFD4 /* CustomSearchBarController.swift in Sources */,
+				ECEA25FC1C7007890012CFD4 /* PingMeUpConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +371,7 @@
 				ECEA25F41C6FDEF70012CFD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
