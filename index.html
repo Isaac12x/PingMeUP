@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PingMeUp--Index</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Mobile First Media Query -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- PingMeUp CSS -->
+    <link rel="stylesheet" href="./PingMeUp.css">
+
+    
+  </head>
+
+  <body>
+
+    <!--Sign up Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!--Sign up Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Create a PingMeUp Account</h4>
+          </div>
+          <div class="modal-body">
+            <!--form tag start-->
+            <form role="form" action="http://units.d8u.us/db" method="GET">
+              <div class="form-group">
+                <label for="Full name">Your full name:</label>
+                <input type="name" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <div class="form-group">
+                <label for="number">Phone number if you would like a text to read on the go:</label>
+                <input type="text" class="form-control" id="phone-number">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default" value="Submit">Submit</button>
+            </form>
+            <!--form tag end-->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Log in Modal -->
+    <div class="modal fade" id="loginModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!--Log in Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Login to your PingMeUp Account</h4>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default" value="Submit">Submit</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+<!--new splash page-->
+<div class="container-full">
+        <!--Nav bar-->
+
+      
+        <ul class="pull-right">
+          <li><a data-toggle="modal" class="btn btn-secondary-outline" href="#myModal" role="button">Sign Up</a></li>
+          <li><a data-toggle="modal" class="btn btn-secondary-outline" href="#loginModal" role="button">Login</a></li>
+          <li><a href="mailto:contact@pingmeup.com" class="btn btn-secondary-outline" role="button">Contact</a></li>
+        </ul>
+       
+    
+  
+
+
+
+
+      <div class="row">
+       
+        <div class="col-lg-12 text-center v-center">
+          
+          <h1>PingMeUp</h1>
+          <p class="lead">There are millions of points out there, let us help summarize them</p>
+          
+          <br>
+        
+          <form class="col-lg-12">
+            <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
+              <input type="text" class="center-block form-control input-lg" title="Enter a URL." placeholder="Enter your URL">
+              <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">Summarize</button></span>
+            </div>
+          </form>
+        </div>
+        
+      </div> <!-- /row -->
+
+    <!--search results-->
+    <div id="summary-results" class="summary-results-container">
+      <div class="summary container">
+        <h2>Your summary</h2>
+        <div id="summary-row" class="row">
+          <div class="col-md-12">
+            <div id="summary-notes" class="thumbnail">
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>
